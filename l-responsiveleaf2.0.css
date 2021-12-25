@@ -1,0 +1,42 @@
+﻿@media only screen and (min-width:300px) and (max-width: 480px) {
+    .loginbox {
+      margin: 10px auto;
+      width: 90%;
+      border-radius:4px;
+    }
+   .login-fld .fld-holder {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .loginbox .login-fld {
+      background: rgba(0, 0, 0, 0) url("../images/mobile-bg.png") no-repeat scroll 50% 0;
+      padding:170px 21px 38px;
+    }
+    .fg-pwd .login {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 8px 21px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width: 767px) {
+  .loginbox {
+  border-radius: 4px;
+  margin: 50px auto 0;
+  width: 60%;
+}
+   .login-fld .fld-holder {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .loginbox .login-fld {
+      background: rgba(0, 0, 0, 0) url("../images/mobile-bg.png") no-repeat scroll 50% 0;
+      padding:170px 21px 38px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .loginbox {
+      margin: 70px auto 0;
+      width: 725px;
+    }
+}
+

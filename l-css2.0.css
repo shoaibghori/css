@@ -1,0 +1,91 @@
+
+html, body {
+	height: 100%
+}
+.layout-boxed html, .layout-boxed body {
+	height: 100%
+}
+body {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin:0;
+	padding:0;
+	background:#ccc;
+}
+.main-header {
+  max-height: 100px;
+  position: relative;
+  background: #fff;
+}
+.main-header .navbar {
+    border: medium none;
+    border-radius: 0;
+    margin-bottom: 0;
+   /* margin-left: 20%;*/
+    min-height: 50px;
+    transition: margin-left 0.3s ease-in-out 0s;
+}
+.main-header .navbar-right {
+    float: left;
+}
+.navbar-custom-menu {
+  float: left;
+  padding-left:42px;
+  width: 28%;
+}
+
+
+.navbar .con-time{
+	float: left; width: 15%; font-size: 14px; padding: 5px 0px;
+}
+.con-time p{
+	color:#5C5C5E;margin:0
+}
+.newsupdate {
+  background: #f7d8e1 none repeat scroll 0 0;
+  border-radius: 5px;
+  float: left;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 11px 5px 11px 0;
+  padding: 4px 10px 6px;
+  width: 55%;
+}
+.newslabel {
+  border-right:1px solid #C9295B;
+  float: left;
+  width: 10%;
+  color:#C9295B;
+  margin-right:10px;
+}
+.news-text{
+	width:85%;
+	float:left;
+}
+
+.news-text p{
+	color:#C9295B;
+	margin:0;
+}
+.navbar .admin-text{
+	margin: 14px 10px 0px 0px; display: inline-block; font-size: 16px; font-weight: bold; color: #5C5C5E; text-decoration: none; float: left;
+}
+.top-bar-menu {
+    margin:0;
+}
+.top-bar-menu > li > a {
+    line-height: 21px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	color:#5c5c5e;
+}
+.nav-leaf{
+	margin-left:20%;
+}
+.user-image {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
